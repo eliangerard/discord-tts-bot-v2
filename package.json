@@ -1,0 +1,33 @@
+{
+  "name": "discord-tts-bot-v2",
+  "version": "1.0.0",
+  "description": "A discord bot that offer tts directly through the voice channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliangerard/discord-tts-bot-v2.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "tts"
+  ],
+  "author": "Elian Gerard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliangerard/discord-tts-bot-v2/issues"
+  },
+  "homepage": "https://github.com/eliangerard/discord-tts-bot-v2#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.11.0",
+    "discord-tts": "^1.2.2",
+    "discord.js": "^14.3.0",
+    "ffmpeg-static": "^5.1.0",
+    "mongodb": "^4.9.1",
+    "opusscript": "^0.0.8",
+    "sodium": "^3.0.2"
+  }
+}
