@@ -17,4 +17,11 @@ Run this command to load the slash commands
 
 > node index.js
 
-Start your command!
+Start your bot!
+
+##Commands
+
+-join: joins the bot at your voice channel
+-disconnect: disconnects the bot from the voice channel
+-say <text>: plays the text
+-setchannel <?channelID>: sets that channel as a default-ever tts mode 
