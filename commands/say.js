@@ -1,13 +1,13 @@
 const { SlashCommandBuilder } = require('discord.js');
 const {AudioPlayer, createAudioResource, StreamType, entersState, VoiceConnectionStatus, joinVoiceChannel} = require("@discordjs/voice");
 const discordTTS = require("discord-tts");
-
+const config = require("../config.json");
 let connection;
 let message;
 let audioPlayer=new AudioPlayer();
 
 const say = (message) => {
-    const stream = discordTTS.getVoiceStream(message, { lang: "es"});
+    const stream = discordTTS.getVoiceStream(message, { lang : config.lang });
     const audioResource = createAudioResource(stream, {inputType: StreamType.Arbitrary, inlineVolume:true});
 
     connection.subscribe(audioPlayer);

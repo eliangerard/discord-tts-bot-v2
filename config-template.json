@@ -1,6 +1,7 @@
 {
     "token": "",
     "clientId" : "",
+    "lang" : "en",
     "mongoDB" : {
         "stringKey" : "",
         "dbname" : ""
