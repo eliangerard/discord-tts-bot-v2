@@ -21,7 +21,7 @@ Start your bot!
 
 ##Commands
 
--join: joins the bot at your voice channel
--disconnect: disconnects the bot from the voice channel
--say <text>: plays the text
--setchannel <?channelID>: sets that channel as a default-ever tts mode 
+- join: joins the bot at your voice channel
+- disconnect: disconnects the bot from the voice channel
+- say <text>: plays the text
+- setchannel <?channelID>: sets that channel as a default-ever tts mode 
