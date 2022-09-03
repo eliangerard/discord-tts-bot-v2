@@ -19,7 +19,7 @@ Run this command to load the slash commands
 
 Start your bot!
 
-##Commands
+## Commands
 
 - join: joins the bot at your voice channel
 - disconnect: disconnects the bot from the voice channel
